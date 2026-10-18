@@ -2816,3 +2816,19 @@ body::after { content: none !important; display: none !important; }
 .wallet-box.is-binance { border-color: rgba(240,185,11,.4) !important; }
 .wallet-box.is-binance #walletNetworkLabel { color: #f0b90b !important; }
 .wallet-box.is-binance .copy-button { border-color: rgba(240,185,11,.5) !important; color: #f0b90b !important; }
+
+/* USDT = green (Tether) */
+#usdtPaymentLabel { background: linear-gradient(135deg, rgba(38,161,123,.16), rgba(38,161,123,.05)) !important; border-color: rgba(38,161,123,.45) !important; }
+#usdtPaymentLabel b { color: #3ddc97 !important; }
+#usdtPaymentLabel small { color: #8fcfb5 !important; }
+#usdtPaymentLabel .usdt-logo { background: #26a17b !important; color: #fff !important; }
+#usdtPaymentLabel.selected { background: linear-gradient(135deg, rgba(38,161,123,.32), rgba(38,161,123,.12)) !important; border-color: #26a17b !important; box-shadow: 0 0 0 1px rgba(38,161,123,.35), 0 8px 22px rgba(38,161,123,.14) !important; }
+#usdtPaymentLabel .payment-check { background: #26a17b !important; color: #fff !important; }
+/* GRAM = cyan blue (TON) */
+#gramPaymentLabel { background: linear-gradient(135deg, rgba(0,152,234,.16), rgba(0,152,234,.05)) !important; border-color: rgba(0,152,234,.45) !important; }
+#gramPaymentLabel b { color: #4cc2ff !important; }
+#gramPaymentLabel small { color: #8cc4e6 !important; }
+#gramPaymentLabel .gram-logo { background: #0098ea !important; color: #fff !important; }
+#gramPaymentLabel.selected { background: linear-gradient(135deg, rgba(0,152,234,.32), rgba(0,152,234,.12)) !important; border-color: #0098ea !important; box-shadow: 0 0 0 1px rgba(0,152,234,.35), 0 8px 22px rgba(0,152,234,.14) !important; }
+#gramPaymentLabel .payment-check { background: #0098ea !important; color: #fff !important; }
+#gramPaymentLabel.disabled { opacity: .55 !important; }
